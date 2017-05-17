@@ -63,10 +63,10 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		94D74F6E41472817E7F1C958 /* Pods-TPWBFaceVerify_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TPWBFaceVerify_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TPWBFaceVerify_Tests/Pods-TPWBFaceVerify_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		AA956E51B7E524C6673B2AC5 /* TPWBFaceVerify.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TPWBFaceVerify.podspec; path = ../TPWBFaceVerify.podspec; sourceTree = "<group>"; };
+		AA956E51B7E524C6673B2AC5 /* TPWBFaceVerify.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TPWBFaceVerify.podspec; path = ../TPWBFaceVerify.podspec; sourceTree = "<group>"; };
 		B1528D682B8172B132DA0ACB /* Pods-TPWBFaceVerify_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TPWBFaceVerify_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TPWBFaceVerify_Example/Pods-TPWBFaceVerify_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		B156A007C9AB2B84E71B29A0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		FD2109369BCEA7B5F3AD9FFD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B156A007C9AB2B84E71B29A0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		FD2109369BCEA7B5F3AD9FFD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -528,6 +528,11 @@
 				GCC_PREFIX_HEADER = "TPWBFaceVerify/TPWBFaceVerify-Prefix.pch";
 				INFOPLIST_FILE = "TPWBFaceVerify/TPWBFaceVerify-Info.plist";
 				MODULE_NAME = ExampleApp;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"TPWBFaceVerify\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -543,6 +548,11 @@
 				GCC_PREFIX_HEADER = "TPWBFaceVerify/TPWBFaceVerify-Prefix.pch";
 				INFOPLIST_FILE = "TPWBFaceVerify/TPWBFaceVerify-Info.plist";
 				MODULE_NAME = ExampleApp;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"TPWBFaceVerify\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;

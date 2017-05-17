@@ -7,8 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <WBCloudFaceVerifySDK/WBFaceVerifyCustomerService.h>
 #import <JavaScriptCore/JSExport.h>
+#import <WBCloudFaceVerifySDK/WBFaceVerifyCustomerService.h>
+
+@class TPWBFaceVerify;
 
 @protocol TPWBFaceVerifyProtocol <JSExport>
 @property (nonatomic, copy) NSString *Userid;
