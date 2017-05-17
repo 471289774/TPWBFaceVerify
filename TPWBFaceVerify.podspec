@@ -17,9 +17,7 @@ s.summary          = 'Face recognition for ios.'
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-s.description      = <<-DESC
-TODO: Add long description of the pod here.
-DESC
+    s.description      = '人脸识别'
 
 s.homepage         = 'https://github.com/471289774/TPWBFaceVerify'
 # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
@@ -39,18 +37,18 @@ s.author           = { '顾卫明' => '471289774@qq.com' }
 s.source           = { :git => 'https://github.com/471289774/TPWBFaceVerify.git'}
 # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-s.ios.deployment_target = '8.0'
+    s.ios.deployment_target = '8.0'
 
-s.source_files = 'TPWBFaceVerify/Classes/**/*'
+    s.source_files = 'TPWBFaceVerify/Classes/**/*'
 
 # s.resource_bundles = {
 #   'TPWBFaceVerify' => ['TPWBFaceVerify/Assets/*.png']
 # }
 
 # s.public_header_files = 'Pod/Classes/**/*.h'
-s.frameworks = 'CoreMedia', 'AudioToolbox','AVFoundation','CoreTelephony','GLKit','Accelerate','MobileCoreServices','SystemConfiguration'
-s.vendored_frameworks = 'TPWBFaceVerify/Assets/NextCV.framework','TPWBFaceVerify/Assets/WBCloudFaceVerifySDK.framework','TPWBFaceVerify/Assets/YTFaceSDK.framework'
-s.libraries = 'c++'
-s.vendored_libraries = 'TPWBFaceVerify/Assets/libcrypto.a','TPWBFaceVerify/Assets/libssl.a'
-s.resources = ['TPWBFaceVerify/Assets/ufa.bundle','TPWBFaceVerify/Assets/WBFaceV2Pics.bundle','TPWBFaceVerify/Assets/youtubeauty.bundle']
+    s.frameworks = 'CoreMedia', 'AudioToolbox','AVFoundation','CoreTelephony','GLKit','Accelerate','MobileCoreServices','SystemConfiguration'
+    s.vendored_frameworks = 'Example/Pods/NextCV.framework','Example/Pods/WBCloudFaceVerifySDK.framework','Example/Pods/YTFaceSDK.framework'
+    s.libraries = 'c++'
+    s.vendored_libraries = 'Example/Pods/libcrypto.a','Example/Pods/libssl.a'
+    s.resources = ['Example/Pods/ufa.bundle','Example/Pods/WBFaceV2Pics.bundle','Example/Pods/youtubeauty.bundle']
 end
