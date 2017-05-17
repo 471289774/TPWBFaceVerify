@@ -1,0 +1,6 @@
+framework module TPWBFaceVerify {
+  umbrella header "TPWBFaceVerify-umbrella.h"
+
+  export *
+  module * { export * }
+}

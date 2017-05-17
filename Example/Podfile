@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TPWBFaceVerify_Example' do
+  pod 'TPWBFaceVerify', :path => '../'
+
+  target 'TPWBFaceVerify_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

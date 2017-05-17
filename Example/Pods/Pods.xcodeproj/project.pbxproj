@@ -1,0 +1,815 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0072BC675392218187E0C315E34F16F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		180E39719589A378FDC8E398923444B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		24F5F934095044EC6BD5A0A07CDD6525 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		5842586D1ECC3158005B547C /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 584258651ECC3158005B547C /* libcrypto.a */; };
+		5842586E1ECC3158005B547C /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 584258661ECC3158005B547C /* libssl.a */; };
+		5842586F1ECC3158005B547C /* NextCV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 584258671ECC3158005B547C /* NextCV.framework */; };
+		584258701ECC3158005B547C /* WBCloudFaceVerifySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 584258691ECC3158005B547C /* WBCloudFaceVerifySDK.framework */; };
+		584258711ECC3158005B547C /* YTFaceSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5842586C1ECC3158005B547C /* YTFaceSDK.framework */; };
+		584258741ECC31FE005B547C /* TPWBFaceVerify.h in Headers */ = {isa = PBXBuildFile; fileRef = 584258721ECC31FE005B547C /* TPWBFaceVerify.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		584258751ECC31FE005B547C /* TPWBFaceVerify.m in Sources */ = {isa = PBXBuildFile; fileRef = 584258731ECC31FE005B547C /* TPWBFaceVerify.m */; };
+		584258771ECC3380005B547C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 584258761ECC3380005B547C /* SystemConfiguration.framework */; };
+		584258791ECC33AD005B547C /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 584258781ECC33AD005B547C /* MobileCoreServices.framework */; };
+		5842587B1ECC33BC005B547C /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5842587A1ECC33BC005B547C /* Accelerate.framework */; };
+		5842587D1ECC33DE005B547C /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5842587C1ECC33DE005B547C /* libc++.tbd */; };
+		5842587F1ECC33E9005B547C /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5842587E1ECC33E9005B547C /* GLKit.framework */; };
+		584258811ECC33F3005B547C /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 584258801ECC33F3005B547C /* CoreTelephony.framework */; };
+		584258831ECC33FB005B547C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 584258821ECC33FB005B547C /* AVFoundation.framework */; };
+		584258851ECC3405005B547C /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 584258841ECC3405005B547C /* AudioToolbox.framework */; };
+		584258871ECC3410005B547C /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 584258861ECC3410005B547C /* CoreMedia.framework */; };
+		65FD078FEBD7274D9AEF045D19C16EF4 /* TPWBFaceVerify-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F98870590502D6A11B058855C641F7B9 /* TPWBFaceVerify-dummy.m */; };
+		7A41E47BE4D057BA309EF3D25A3821BB /* TPWBFaceVerify-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A333D947D724B82297E5C52E77CD135B /* TPWBFaceVerify-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADFB70E98C2CB515238FE33C26C4A957 /* Pods-TPWBFaceVerify_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D411A2AC93320DF5E884911BE8760007 /* Pods-TPWBFaceVerify_Example-dummy.m */; };
+		AFD89BB4815C7B66588E02F27067E5E2 /* Pods-TPWBFaceVerify_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EAA1A89C8B6C17907DEE63780CC1C4A /* Pods-TPWBFaceVerify_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B4BDFF29AA099D4AB33E0124C2EC9BBF /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F810E041F841543E6449D923256C84 /* ReplaceMe.m */; };
+		B98570504D93579F69668056EC3855C7 /* Pods-TPWBFaceVerify_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BA194E7B8DEF49259580A5C42346D26 /* Pods-TPWBFaceVerify_Tests-dummy.m */; };
+		BBB52B793F709281D13E56FEE528F6DC /* Pods-TPWBFaceVerify_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CB14A361BF9A1EC42DECD5C3B9EEC895 /* Pods-TPWBFaceVerify_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		701179BF8C48DAC3A6AFB7F6711552ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38781C92DDEDD16A43E038D6A9C7903B;
+			remoteInfo = TPWBFaceVerify;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17F810E041F841543E6449D923256C84 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		1BA194E7B8DEF49259580A5C42346D26 /* Pods-TPWBFaceVerify_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TPWBFaceVerify_Tests-dummy.m"; sourceTree = "<group>"; };
+		26BD16CF69551230CB74FE29FC8374A6 /* Pods-TPWBFaceVerify_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TPWBFaceVerify_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3546C4278D2CD5367892BBD859720CB0 /* Pods-TPWBFaceVerify_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TPWBFaceVerify_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		3F16636BEB9EA62F7C0E7C99980E095D /* Pods-TPWBFaceVerify_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TPWBFaceVerify_Example.release.xcconfig"; sourceTree = "<group>"; };
+		4088FC0D9F7AD7A4B84DE551367A4989 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		490566994FC965A9FE74C8501835E6FA /* Pods-TPWBFaceVerify_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TPWBFaceVerify_Example-frameworks.sh"; sourceTree = "<group>"; };
+		5278BD84629B7EF4462798110EC14C8A /* Pods-TPWBFaceVerify_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TPWBFaceVerify_Example-resources.sh"; sourceTree = "<group>"; };
+		584258651ECC3158005B547C /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcrypto.a; sourceTree = "<group>"; };
+		584258661ECC3158005B547C /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libssl.a; sourceTree = "<group>"; };
+		584258671ECC3158005B547C /* NextCV.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NextCV.framework; sourceTree = "<group>"; };
+		584258681ECC3158005B547C /* ufa.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ufa.bundle; sourceTree = "<group>"; };
+		584258691ECC3158005B547C /* WBCloudFaceVerifySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WBCloudFaceVerifySDK.framework; sourceTree = "<group>"; };
+		5842586A1ECC3158005B547C /* WBFaceV2Pics.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = WBFaceV2Pics.bundle; sourceTree = "<group>"; };
+		5842586B1ECC3158005B547C /* youtubeauty.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = youtubeauty.bundle; sourceTree = "<group>"; };
+		5842586C1ECC3158005B547C /* YTFaceSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = YTFaceSDK.framework; sourceTree = "<group>"; };
+		584258721ECC31FE005B547C /* TPWBFaceVerify.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPWBFaceVerify.h; sourceTree = "<group>"; };
+		584258731ECC31FE005B547C /* TPWBFaceVerify.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPWBFaceVerify.m; sourceTree = "<group>"; };
+		584258761ECC3380005B547C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		584258781ECC33AD005B547C /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		5842587A1ECC33BC005B547C /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
+		5842587C1ECC33DE005B547C /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/usr/lib/libc++.tbd"; sourceTree = DEVELOPER_DIR; };
+		5842587E1ECC33E9005B547C /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/GLKit.framework; sourceTree = DEVELOPER_DIR; };
+		584258801ECC33F3005B547C /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
+		584258821ECC33FB005B547C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		584258841ECC3405005B547C /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/AudioToolbox.framework; sourceTree = DEVELOPER_DIR; };
+		584258861ECC3410005B547C /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreMedia.framework; sourceTree = DEVELOPER_DIR; };
+		5DFD6BCA15F5BB33FD88185C70302A00 /* Pods-TPWBFaceVerify_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TPWBFaceVerify_Tests-resources.sh"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		68C0BAF4749E07E7E773A31EB835CFF3 /* Pods-TPWBFaceVerify_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TPWBFaceVerify_Tests.modulemap"; sourceTree = "<group>"; };
+		7C081A845EE1781642DED30F6B83A95D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EAA1A89C8B6C17907DEE63780CC1C4A /* Pods-TPWBFaceVerify_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TPWBFaceVerify_Example-umbrella.h"; sourceTree = "<group>"; };
+		8A6194629A7A51CF5B09213E6FCE4356 /* Pods-TPWBFaceVerify_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TPWBFaceVerify_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		975966FD21915CE67F814548C536B035 /* Pods-TPWBFaceVerify_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TPWBFaceVerify_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		9CDED9DC6B772CCB381658F2010EE3B0 /* TPWBFaceVerify.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TPWBFaceVerify.xcconfig; sourceTree = "<group>"; };
+		9D761CC6229B70AEDD006B147FA51C3F /* Pods_TPWBFaceVerify_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TPWBFaceVerify_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A09F0D52FC6B190769E2AD6383B4BAAF /* Pods-TPWBFaceVerify_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TPWBFaceVerify_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		A2862620975E1413104546FB06C915F4 /* Pods-TPWBFaceVerify_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TPWBFaceVerify_Example.modulemap"; sourceTree = "<group>"; };
+		A333D947D724B82297E5C52E77CD135B /* TPWBFaceVerify-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TPWBFaceVerify-umbrella.h"; sourceTree = "<group>"; };
+		BCDB8ECBBF43B46C807E88292AC8E300 /* Pods-TPWBFaceVerify_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TPWBFaceVerify_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C2FD8AA8ADC46768F558000B1442ABB6 /* Pods-TPWBFaceVerify_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TPWBFaceVerify_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C6110944C7A61CD7C04C22AD5B35117E /* Pods_TPWBFaceVerify_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TPWBFaceVerify_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8837498C7BB30E2E72A06EB6C13ACE7 /* TPWBFaceVerify.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TPWBFaceVerify.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB14A361BF9A1EC42DECD5C3B9EEC895 /* Pods-TPWBFaceVerify_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TPWBFaceVerify_Tests-umbrella.h"; sourceTree = "<group>"; };
+		D411A2AC93320DF5E884911BE8760007 /* Pods-TPWBFaceVerify_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TPWBFaceVerify_Example-dummy.m"; sourceTree = "<group>"; };
+		D838889DE02EBE65F18842DC227C5157 /* TPWBFaceVerify-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TPWBFaceVerify-prefix.pch"; sourceTree = "<group>"; };
+		E5C2BDFFE06C6577966B72971E72B0BC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA581311684130C38D14B79E5A45D6AE /* TPWBFaceVerify.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = TPWBFaceVerify.modulemap; sourceTree = "<group>"; };
+		F014CA2C56CC523F61D39D7D3174EA32 /* Pods-TPWBFaceVerify_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TPWBFaceVerify_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		F98870590502D6A11B058855C641F7B9 /* TPWBFaceVerify-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TPWBFaceVerify-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		545569CB7F8A081EB2BB479C3F19F04E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180E39719589A378FDC8E398923444B6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5A30334EE71A1542CF3CF2F12361C03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				584258871ECC3410005B547C /* CoreMedia.framework in Frameworks */,
+				584258851ECC3405005B547C /* AudioToolbox.framework in Frameworks */,
+				584258831ECC33FB005B547C /* AVFoundation.framework in Frameworks */,
+				584258811ECC33F3005B547C /* CoreTelephony.framework in Frameworks */,
+				5842587F1ECC33E9005B547C /* GLKit.framework in Frameworks */,
+				5842587D1ECC33DE005B547C /* libc++.tbd in Frameworks */,
+				5842587B1ECC33BC005B547C /* Accelerate.framework in Frameworks */,
+				584258791ECC33AD005B547C /* MobileCoreServices.framework in Frameworks */,
+				584258771ECC3380005B547C /* SystemConfiguration.framework in Frameworks */,
+				5842586F1ECC3158005B547C /* NextCV.framework in Frameworks */,
+				5842586D1ECC3158005B547C /* libcrypto.a in Frameworks */,
+				0072BC675392218187E0C315E34F16F2 /* Foundation.framework in Frameworks */,
+				584258711ECC3158005B547C /* YTFaceSDK.framework in Frameworks */,
+				584258701ECC3158005B547C /* WBCloudFaceVerifySDK.framework in Frameworks */,
+				5842586E1ECC3158005B547C /* libssl.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F66F39586A2E2D01EA080A2DA857991E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24F5F934095044EC6BD5A0A07CDD6525 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2214D2D07BBA8182949BB47CDCC9A86F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F659D233B345F90720ED4FD66FE6D2C0 /* TPWBFaceVerify */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		28097EE26FCF98A083277EEF0F7DF7E1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				532630F5AD56AC49EC8378B02B13D2F6 /* Pods-TPWBFaceVerify_Example */,
+				66D188677326BF6F243ED45F08601F8E /* Pods-TPWBFaceVerify_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		532630F5AD56AC49EC8378B02B13D2F6 /* Pods-TPWBFaceVerify_Example */ = {
+			isa = PBXGroup;
+			children = (
+				7C081A845EE1781642DED30F6B83A95D /* Info.plist */,
+				A2862620975E1413104546FB06C915F4 /* Pods-TPWBFaceVerify_Example.modulemap */,
+				26BD16CF69551230CB74FE29FC8374A6 /* Pods-TPWBFaceVerify_Example-acknowledgements.markdown */,
+				A09F0D52FC6B190769E2AD6383B4BAAF /* Pods-TPWBFaceVerify_Example-acknowledgements.plist */,
+				D411A2AC93320DF5E884911BE8760007 /* Pods-TPWBFaceVerify_Example-dummy.m */,
+				490566994FC965A9FE74C8501835E6FA /* Pods-TPWBFaceVerify_Example-frameworks.sh */,
+				5278BD84629B7EF4462798110EC14C8A /* Pods-TPWBFaceVerify_Example-resources.sh */,
+				7EAA1A89C8B6C17907DEE63780CC1C4A /* Pods-TPWBFaceVerify_Example-umbrella.h */,
+				F014CA2C56CC523F61D39D7D3174EA32 /* Pods-TPWBFaceVerify_Example.debug.xcconfig */,
+				3F16636BEB9EA62F7C0E7C99980E095D /* Pods-TPWBFaceVerify_Example.release.xcconfig */,
+			);
+			name = "Pods-TPWBFaceVerify_Example";
+			path = "Target Support Files/Pods-TPWBFaceVerify_Example";
+			sourceTree = "<group>";
+		};
+		6672B9AE708025FEE1D3AB26604A3FDE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D761CC6229B70AEDD006B147FA51C3F /* Pods_TPWBFaceVerify_Example.framework */,
+				C6110944C7A61CD7C04C22AD5B35117E /* Pods_TPWBFaceVerify_Tests.framework */,
+				C8837498C7BB30E2E72A06EB6C13ACE7 /* TPWBFaceVerify.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66D188677326BF6F243ED45F08601F8E /* Pods-TPWBFaceVerify_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E5C2BDFFE06C6577966B72971E72B0BC /* Info.plist */,
+				68C0BAF4749E07E7E773A31EB835CFF3 /* Pods-TPWBFaceVerify_Tests.modulemap */,
+				8A6194629A7A51CF5B09213E6FCE4356 /* Pods-TPWBFaceVerify_Tests-acknowledgements.markdown */,
+				C2FD8AA8ADC46768F558000B1442ABB6 /* Pods-TPWBFaceVerify_Tests-acknowledgements.plist */,
+				1BA194E7B8DEF49259580A5C42346D26 /* Pods-TPWBFaceVerify_Tests-dummy.m */,
+				3546C4278D2CD5367892BBD859720CB0 /* Pods-TPWBFaceVerify_Tests-frameworks.sh */,
+				5DFD6BCA15F5BB33FD88185C70302A00 /* Pods-TPWBFaceVerify_Tests-resources.sh */,
+				CB14A361BF9A1EC42DECD5C3B9EEC895 /* Pods-TPWBFaceVerify_Tests-umbrella.h */,
+				975966FD21915CE67F814548C536B035 /* Pods-TPWBFaceVerify_Tests.debug.xcconfig */,
+				BCDB8ECBBF43B46C807E88292AC8E300 /* Pods-TPWBFaceVerify_Tests.release.xcconfig */,
+			);
+			name = "Pods-TPWBFaceVerify_Tests";
+			path = "Target Support Files/Pods-TPWBFaceVerify_Tests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				2214D2D07BBA8182949BB47CDCC9A86F /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				6672B9AE708025FEE1D3AB26604A3FDE /* Products */,
+				28097EE26FCF98A083277EEF0F7DF7E1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				584258861ECC3410005B547C /* CoreMedia.framework */,
+				584258841ECC3405005B547C /* AudioToolbox.framework */,
+				584258821ECC33FB005B547C /* AVFoundation.framework */,
+				584258801ECC33F3005B547C /* CoreTelephony.framework */,
+				5842587E1ECC33E9005B547C /* GLKit.framework */,
+				5842587C1ECC33DE005B547C /* libc++.tbd */,
+				5842587A1ECC33BC005B547C /* Accelerate.framework */,
+				584258781ECC33AD005B547C /* MobileCoreServices.framework */,
+				584258761ECC3380005B547C /* SystemConfiguration.framework */,
+				584258651ECC3158005B547C /* libcrypto.a */,
+				584258661ECC3158005B547C /* libssl.a */,
+				584258671ECC3158005B547C /* NextCV.framework */,
+				584258681ECC3158005B547C /* ufa.bundle */,
+				584258691ECC3158005B547C /* WBCloudFaceVerifySDK.framework */,
+				5842586A1ECC3158005B547C /* WBFaceV2Pics.bundle */,
+				5842586B1ECC3158005B547C /* youtubeauty.bundle */,
+				5842586C1ECC3158005B547C /* YTFaceSDK.framework */,
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D31D9F8D29B5C6AD3FD7D12E5C84A7D2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4088FC0D9F7AD7A4B84DE551367A4989 /* Info.plist */,
+				EA581311684130C38D14B79E5A45D6AE /* TPWBFaceVerify.modulemap */,
+				9CDED9DC6B772CCB381658F2010EE3B0 /* TPWBFaceVerify.xcconfig */,
+				F98870590502D6A11B058855C641F7B9 /* TPWBFaceVerify-dummy.m */,
+				D838889DE02EBE65F18842DC227C5157 /* TPWBFaceVerify-prefix.pch */,
+				A333D947D724B82297E5C52E77CD135B /* TPWBFaceVerify-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TPWBFaceVerify";
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D9E5AEFE887E8065CE3D3E0F2A48F2B9 /* TPWBFaceVerify */ = {
+			isa = PBXGroup;
+			children = (
+				DCE95B0E4CF34F1A5C0B0658C5E5CCE9 /* Classes */,
+			);
+			path = TPWBFaceVerify;
+			sourceTree = "<group>";
+		};
+		DCE95B0E4CF34F1A5C0B0658C5E5CCE9 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				17F810E041F841543E6449D923256C84 /* ReplaceMe.m */,
+				584258721ECC31FE005B547C /* TPWBFaceVerify.h */,
+				584258731ECC31FE005B547C /* TPWBFaceVerify.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		F659D233B345F90720ED4FD66FE6D2C0 /* TPWBFaceVerify */ = {
+			isa = PBXGroup;
+			children = (
+				D31D9F8D29B5C6AD3FD7D12E5C84A7D2 /* Support Files */,
+				D9E5AEFE887E8065CE3D3E0F2A48F2B9 /* TPWBFaceVerify */,
+			);
+			name = TPWBFaceVerify;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		10D18D38BEDA955EAD823A3BDF030CB0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFD89BB4815C7B66588E02F27067E5E2 /* Pods-TPWBFaceVerify_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		906067FD553CD7C6DCFC9EB545696D58 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBB52B793F709281D13E56FEE528F6DC /* Pods-TPWBFaceVerify_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D77CC5E9EB13E8993AFB4A7500447AD4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A41E47BE4D057BA309EF3D25A3821BB /* TPWBFaceVerify-umbrella.h in Headers */,
+				584258741ECC31FE005B547C /* TPWBFaceVerify.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		38781C92DDEDD16A43E038D6A9C7903B /* TPWBFaceVerify */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B620354AF33EBE0D0A9DC0E2AA8E3E76 /* Build configuration list for PBXNativeTarget "TPWBFaceVerify" */;
+			buildPhases = (
+				F5D6FF0FDB85DEEB290EEB356EEC8521 /* Sources */,
+				E5A30334EE71A1542CF3CF2F12361C03 /* Frameworks */,
+				D77CC5E9EB13E8993AFB4A7500447AD4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TPWBFaceVerify;
+			productName = TPWBFaceVerify;
+			productReference = C8837498C7BB30E2E72A06EB6C13ACE7 /* TPWBFaceVerify.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C9DA0AD88A50D3ECD565DBDB0865F973 /* Pods-TPWBFaceVerify_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7679A18FA1E27EFC8EF643CA1E78A93B /* Build configuration list for PBXNativeTarget "Pods-TPWBFaceVerify_Example" */;
+			buildPhases = (
+				93AE28FCF8FE350A4BDE2D0FDF202F3B /* Sources */,
+				F66F39586A2E2D01EA080A2DA857991E /* Frameworks */,
+				10D18D38BEDA955EAD823A3BDF030CB0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6486A1000A10C72AFBF601C7B60A4E78 /* PBXTargetDependency */,
+			);
+			name = "Pods-TPWBFaceVerify_Example";
+			productName = "Pods-TPWBFaceVerify_Example";
+			productReference = 9D761CC6229B70AEDD006B147FA51C3F /* Pods_TPWBFaceVerify_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CC2F6D9F2F05276BF4E7B362D4C59AC1 /* Pods-TPWBFaceVerify_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 295B3601B371D815452D3EA34A4CEA39 /* Build configuration list for PBXNativeTarget "Pods-TPWBFaceVerify_Tests" */;
+			buildPhases = (
+				371DFC52CC3526D554763926F1B6E920 /* Sources */,
+				545569CB7F8A081EB2BB479C3F19F04E /* Frameworks */,
+				906067FD553CD7C6DCFC9EB545696D58 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TPWBFaceVerify_Tests";
+			productName = "Pods-TPWBFaceVerify_Tests";
+			productReference = C6110944C7A61CD7C04C22AD5B35117E /* Pods_TPWBFaceVerify_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 6672B9AE708025FEE1D3AB26604A3FDE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C9DA0AD88A50D3ECD565DBDB0865F973 /* Pods-TPWBFaceVerify_Example */,
+				CC2F6D9F2F05276BF4E7B362D4C59AC1 /* Pods-TPWBFaceVerify_Tests */,
+				38781C92DDEDD16A43E038D6A9C7903B /* TPWBFaceVerify */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		371DFC52CC3526D554763926F1B6E920 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B98570504D93579F69668056EC3855C7 /* Pods-TPWBFaceVerify_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93AE28FCF8FE350A4BDE2D0FDF202F3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADFB70E98C2CB515238FE33C26C4A957 /* Pods-TPWBFaceVerify_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5D6FF0FDB85DEEB290EEB356EEC8521 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				584258751ECC31FE005B547C /* TPWBFaceVerify.m in Sources */,
+				B4BDFF29AA099D4AB33E0124C2EC9BBF /* ReplaceMe.m in Sources */,
+				65FD078FEBD7274D9AEF045D19C16EF4 /* TPWBFaceVerify-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6486A1000A10C72AFBF601C7B60A4E78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TPWBFaceVerify;
+			target = 38781C92DDEDD16A43E038D6A9C7903B /* TPWBFaceVerify */;
+			targetProxy = 701179BF8C48DAC3A6AFB7F6711552ED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9996F82DEBC596E2F90E1F8E39706827 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CDED9DC6B772CCB381658F2010EE3B0 /* TPWBFaceVerify.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TPWBFaceVerify/TPWBFaceVerify-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TPWBFaceVerify/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				MODULEMAP_FILE = "Target Support Files/TPWBFaceVerify/TPWBFaceVerify.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-force_load",
+					"$(PROJECT_DIR)/NextCV.framework/NextCV",
+					"$(PROJECT_DIR)/YTFaceSDK.framework/YTFaceSDK",
+				);
+				PRODUCT_NAME = TPWBFaceVerify;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B027D67358F534FFFCF222480D766F3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 975966FD21915CE67F814548C536B035 /* Pods-TPWBFaceVerify_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TPWBFaceVerify_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TPWBFaceVerify_Tests/Pods-TPWBFaceVerify_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TPWBFaceVerify_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E904E952977926B2F27B2E32F9BD03DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCDB8ECBBF43B46C807E88292AC8E300 /* Pods-TPWBFaceVerify_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TPWBFaceVerify_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TPWBFaceVerify_Tests/Pods-TPWBFaceVerify_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TPWBFaceVerify_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EB689BB3629A040D060D59EE2C340E02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F014CA2C56CC523F61D39D7D3174EA32 /* Pods-TPWBFaceVerify_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TPWBFaceVerify_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TPWBFaceVerify_Example/Pods-TPWBFaceVerify_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TPWBFaceVerify_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F00F506175D48E3AC73BA69A094E162D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F16636BEB9EA62F7C0E7C99980E095D /* Pods-TPWBFaceVerify_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TPWBFaceVerify_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TPWBFaceVerify_Example/Pods-TPWBFaceVerify_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TPWBFaceVerify_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FA4F38529F347650C4F4069A5A5E8043 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CDED9DC6B772CCB381658F2010EE3B0 /* TPWBFaceVerify.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TPWBFaceVerify/TPWBFaceVerify-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TPWBFaceVerify/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				MODULEMAP_FILE = "Target Support Files/TPWBFaceVerify/TPWBFaceVerify.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-force_load",
+					"$(PROJECT_DIR)/NextCV.framework/NextCV",
+					"$(PROJECT_DIR)/YTFaceSDK.framework/YTFaceSDK",
+				);
+				PRODUCT_NAME = TPWBFaceVerify;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		295B3601B371D815452D3EA34A4CEA39 /* Build configuration list for PBXNativeTarget "Pods-TPWBFaceVerify_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B027D67358F534FFFCF222480D766F3B /* Debug */,
+				E904E952977926B2F27B2E32F9BD03DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345CC476DF4A7516DBD2220CF5035FF3 /* Debug */,
+				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7679A18FA1E27EFC8EF643CA1E78A93B /* Build configuration list for PBXNativeTarget "Pods-TPWBFaceVerify_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB689BB3629A040D060D59EE2C340E02 /* Debug */,
+				F00F506175D48E3AC73BA69A094E162D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B620354AF33EBE0D0A9DC0E2AA8E3E76 /* Build configuration list for PBXNativeTarget "TPWBFaceVerify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9996F82DEBC596E2F90E1F8E39706827 /* Debug */,
+				FA4F38529F347650C4F4069A5A5E8043 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
