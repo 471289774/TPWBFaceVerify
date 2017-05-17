@@ -10,10 +10,10 @@
 		0072BC675392218187E0C315E34F16F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		180E39719589A378FDC8E398923444B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		24F5F934095044EC6BD5A0A07CDD6525 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		5826D3C21ECC4D410099140C /* WBCloudFaceVerifySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5826D3C11ECC4D410099140C /* WBCloudFaceVerifySDK.framework */; };
 		5842586D1ECC3158005B547C /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 584258651ECC3158005B547C /* libcrypto.a */; };
 		5842586E1ECC3158005B547C /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 584258661ECC3158005B547C /* libssl.a */; };
 		5842586F1ECC3158005B547C /* NextCV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 584258671ECC3158005B547C /* NextCV.framework */; };
-		584258701ECC3158005B547C /* WBCloudFaceVerifySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 584258691ECC3158005B547C /* WBCloudFaceVerifySDK.framework */; };
 		584258711ECC3158005B547C /* YTFaceSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5842586C1ECC3158005B547C /* YTFaceSDK.framework */; };
 		584258741ECC31FE005B547C /* TPWBFaceVerify.h in Headers */ = {isa = PBXBuildFile; fileRef = 584258721ECC31FE005B547C /* TPWBFaceVerify.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		584258751ECC31FE005B547C /* TPWBFaceVerify.m in Sources */ = {isa = PBXBuildFile; fileRef = 584258731ECC31FE005B547C /* TPWBFaceVerify.m */; };
@@ -54,11 +54,11 @@
 		4088FC0D9F7AD7A4B84DE551367A4989 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		490566994FC965A9FE74C8501835E6FA /* Pods-TPWBFaceVerify_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TPWBFaceVerify_Example-frameworks.sh"; sourceTree = "<group>"; };
 		5278BD84629B7EF4462798110EC14C8A /* Pods-TPWBFaceVerify_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TPWBFaceVerify_Example-resources.sh"; sourceTree = "<group>"; };
+		5826D3C11ECC4D410099140C /* WBCloudFaceVerifySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WBCloudFaceVerifySDK.framework; sourceTree = "<group>"; };
 		584258651ECC3158005B547C /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcrypto.a; sourceTree = "<group>"; };
 		584258661ECC3158005B547C /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libssl.a; sourceTree = "<group>"; };
 		584258671ECC3158005B547C /* NextCV.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NextCV.framework; sourceTree = "<group>"; };
 		584258681ECC3158005B547C /* ufa.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ufa.bundle; sourceTree = "<group>"; };
-		584258691ECC3158005B547C /* WBCloudFaceVerifySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WBCloudFaceVerifySDK.framework; sourceTree = "<group>"; };
 		5842586A1ECC3158005B547C /* WBFaceV2Pics.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = WBFaceV2Pics.bundle; sourceTree = "<group>"; };
 		5842586B1ECC3158005B547C /* youtubeauty.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = youtubeauty.bundle; sourceTree = "<group>"; };
 		5842586C1ECC3158005B547C /* YTFaceSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = YTFaceSDK.framework; sourceTree = "<group>"; };
@@ -115,6 +115,7 @@
 				584258871ECC3410005B547C /* CoreMedia.framework in Frameworks */,
 				584258851ECC3405005B547C /* AudioToolbox.framework in Frameworks */,
 				584258831ECC33FB005B547C /* AVFoundation.framework in Frameworks */,
+				5826D3C21ECC4D410099140C /* WBCloudFaceVerifySDK.framework in Frameworks */,
 				584258811ECC33F3005B547C /* CoreTelephony.framework in Frameworks */,
 				5842587F1ECC33E9005B547C /* GLKit.framework in Frameworks */,
 				5842587D1ECC33DE005B547C /* libc++.tbd in Frameworks */,
@@ -125,7 +126,6 @@
 				5842586D1ECC3158005B547C /* libcrypto.a in Frameworks */,
 				0072BC675392218187E0C315E34F16F2 /* Foundation.framework in Frameworks */,
 				584258711ECC3158005B547C /* YTFaceSDK.framework in Frameworks */,
-				584258701ECC3158005B547C /* WBCloudFaceVerifySDK.framework in Frameworks */,
 				5842586E1ECC3158005B547C /* libssl.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -224,6 +224,7 @@
 				584258801ECC33F3005B547C /* CoreTelephony.framework */,
 				5842587E1ECC33E9005B547C /* GLKit.framework */,
 				5842587C1ECC33DE005B547C /* libc++.tbd */,
+				5826D3C11ECC4D410099140C /* WBCloudFaceVerifySDK.framework */,
 				5842587A1ECC33BC005B547C /* Accelerate.framework */,
 				584258781ECC33AD005B547C /* MobileCoreServices.framework */,
 				584258761ECC3380005B547C /* SystemConfiguration.framework */,
@@ -231,7 +232,6 @@
 				584258661ECC3158005B547C /* libssl.a */,
 				584258671ECC3158005B547C /* NextCV.framework */,
 				584258681ECC3158005B547C /* ufa.bundle */,
-				584258691ECC3158005B547C /* WBCloudFaceVerifySDK.framework */,
 				5842586A1ECC3158005B547C /* WBFaceV2Pics.bundle */,
 				5842586B1ECC3158005B547C /* youtubeauty.bundle */,
 				5842586C1ECC3158005B547C /* YTFaceSDK.framework */,
