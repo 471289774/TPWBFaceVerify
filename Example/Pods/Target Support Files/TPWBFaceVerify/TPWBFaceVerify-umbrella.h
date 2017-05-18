@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "TPWBFaceVerify.h"
 
 FOUNDATION_EXPORT double TPWBFaceVerifyVersionNumber;
 FOUNDATION_EXPORT const unsigned char TPWBFaceVerifyVersionString[];

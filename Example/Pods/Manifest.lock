@@ -1,5 +1,5 @@
 PODS:
-  - TPWBFaceVerify (0.1.0)
+  - TPWBFaceVerify (0.0.1)
 
 DEPENDENCIES:
   - TPWBFaceVerify (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  TPWBFaceVerify: 14eaa6b76f6b64587faae6f49c9ca82626704b59
+  TPWBFaceVerify: faabb40ad7246a1225314a215387cf578af37dbd
 
 PODFILE CHECKSUM: 7d94b37ff19a695c0018665a4cae5fad02665ea9
 

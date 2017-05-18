@@ -7,32 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0072BC675392218187E0C315E34F16F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		180E39719589A378FDC8E398923444B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		24F5F934095044EC6BD5A0A07CDD6525 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		5826D3C21ECC4D410099140C /* WBCloudFaceVerifySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5826D3C11ECC4D410099140C /* WBCloudFaceVerifySDK.framework */; };
-		5842586D1ECC3158005B547C /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 584258651ECC3158005B547C /* libcrypto.a */; };
-		5842586E1ECC3158005B547C /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 584258661ECC3158005B547C /* libssl.a */; };
-		5842586F1ECC3158005B547C /* NextCV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 584258671ECC3158005B547C /* NextCV.framework */; };
-		584258711ECC3158005B547C /* YTFaceSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5842586C1ECC3158005B547C /* YTFaceSDK.framework */; };
-		584258741ECC31FE005B547C /* TPWBFaceVerify.h in Headers */ = {isa = PBXBuildFile; fileRef = 584258721ECC31FE005B547C /* TPWBFaceVerify.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		584258751ECC31FE005B547C /* TPWBFaceVerify.m in Sources */ = {isa = PBXBuildFile; fileRef = 584258731ECC31FE005B547C /* TPWBFaceVerify.m */; };
-		584258771ECC3380005B547C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 584258761ECC3380005B547C /* SystemConfiguration.framework */; };
-		584258791ECC33AD005B547C /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 584258781ECC33AD005B547C /* MobileCoreServices.framework */; };
-		5842587B1ECC33BC005B547C /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5842587A1ECC33BC005B547C /* Accelerate.framework */; };
-		5842587D1ECC33DE005B547C /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 5842587C1ECC33DE005B547C /* libc++.tbd */; };
-		5842587F1ECC33E9005B547C /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5842587E1ECC33E9005B547C /* GLKit.framework */; };
-		584258811ECC33F3005B547C /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 584258801ECC33F3005B547C /* CoreTelephony.framework */; };
-		584258831ECC33FB005B547C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 584258821ECC33FB005B547C /* AVFoundation.framework */; };
-		584258851ECC3405005B547C /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 584258841ECC3405005B547C /* AudioToolbox.framework */; };
-		584258871ECC3410005B547C /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 584258861ECC3410005B547C /* CoreMedia.framework */; };
-		65FD078FEBD7274D9AEF045D19C16EF4 /* TPWBFaceVerify-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F98870590502D6A11B058855C641F7B9 /* TPWBFaceVerify-dummy.m */; };
-		7A41E47BE4D057BA309EF3D25A3821BB /* TPWBFaceVerify-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A333D947D724B82297E5C52E77CD135B /* TPWBFaceVerify-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		180E39719589A378FDC8E398923444B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9925DC67341D4FD78E60D17E73903F79 /* Foundation.framework */; };
+		24F5F934095044EC6BD5A0A07CDD6525 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9925DC67341D4FD78E60D17E73903F79 /* Foundation.framework */; };
+		27CD0B61B044D4465A269654514E0BB1 /* WBFaceV2Pics.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3D719A580804A3AF86D2E346BD22525D /* WBFaceV2Pics.bundle */; };
+		2948B8A3B9B8557EA04FBD97065A50A5 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 485C4559962712391C74E8163D881096 /* Accelerate.framework */; };
+		40B03B770C497A03DF8A961DE975DEE3 /* youtubeauty.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CC4B973572313885166CDC2CAA81071C /* youtubeauty.bundle */; };
+		43D31E71AAB0F2D6C6810F3B1A2488E8 /* TPWBFaceVerify.h in Headers */ = {isa = PBXBuildFile; fileRef = 244EC38A0B4D0447B15C81A6AE15A025 /* TPWBFaceVerify.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		500DDA16F508F62496081040068855AC /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE62B98663BFE4DF7C934CB600421B1E /* MobileCoreServices.framework */; };
+		68BB378E50BB07F1BFF21F63FC63A583 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 146A3F156243B35A2FA06549AE0DA550 /* GLKit.framework */; };
+		7A61C7BE6E3E85622AC6E5DCD48B0D02 /* TPWBFaceVerify.m in Sources */ = {isa = PBXBuildFile; fileRef = 43E38393CBD6EA8E631CBA329743B0B7 /* TPWBFaceVerify.m */; };
+		7ACD2A3EC08F99267D21543AAFA1E78E /* TPWBFaceVerify-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B21F7724053E4E6B73AC3AFDB324B41B /* TPWBFaceVerify-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		866AB088D18981F2EE72FC2FB1CDC9D7 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43290CBCD999FC024CFAA04787AF7DDF /* CoreTelephony.framework */; };
+		9739332B00AB5E73AAA4E099083E79B6 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65D38F57C8D43DF7AAF99229E9CACB39 /* AudioToolbox.framework */; };
+		9A383515845C2F52661FCA3906B69091 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D41ADC5093664253E2C93790631E5D6 /* ReplaceMe.m */; };
+		9BD8EB67B8794F126F2B2F3D3F04D51D /* ufa.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C0B1F1FFD692B524451D41E1E2724537 /* ufa.bundle */; };
 		ADFB70E98C2CB515238FE33C26C4A957 /* Pods-TPWBFaceVerify_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D411A2AC93320DF5E884911BE8760007 /* Pods-TPWBFaceVerify_Example-dummy.m */; };
 		AFD89BB4815C7B66588E02F27067E5E2 /* Pods-TPWBFaceVerify_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EAA1A89C8B6C17907DEE63780CC1C4A /* Pods-TPWBFaceVerify_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B4BDFF29AA099D4AB33E0124C2EC9BBF /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 17F810E041F841543E6449D923256C84 /* ReplaceMe.m */; };
 		B98570504D93579F69668056EC3855C7 /* Pods-TPWBFaceVerify_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BA194E7B8DEF49259580A5C42346D26 /* Pods-TPWBFaceVerify_Tests-dummy.m */; };
 		BBB52B793F709281D13E56FEE528F6DC /* Pods-TPWBFaceVerify_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CB14A361BF9A1EC42DECD5C3B9EEC895 /* Pods-TPWBFaceVerify_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF1CB0F59ED00AA2EE127313FAD5CF58 /* TPWBFaceVerify-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E65C5BAA2C4849DAA1F64D173006BE2 /* TPWBFaceVerify-dummy.m */; };
+		E4E6055282EBB5452878AF0CB756A26A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9925DC67341D4FD78E60D17E73903F79 /* Foundation.framework */; };
+		E733284B66E7DE9242B5252596A6B227 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23EB3D3B292616FD2A4D48383AFBECDF /* SystemConfiguration.framework */; };
+		F85554679BBC91162DB320A72C827BE1 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76D950E75F69AE0F3A6176AE420D1986 /* AVFoundation.framework */; };
+		FA00C4FDA1F2A60F8DE4F3B7C778C56A /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03F09C99B4615A20D05D7659E5B102EE /* CoreMedia.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,57 +43,56 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		17F810E041F841543E6449D923256C84 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		0137CE150817EB0DCF81E869E018FA29 /* TPWBFaceVerify-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TPWBFaceVerify-prefix.pch"; sourceTree = "<group>"; };
+		03F09C99B4615A20D05D7659E5B102EE /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreMedia.framework; sourceTree = DEVELOPER_DIR; };
+		080B1B8F978CBE73FB40FE79AEDC8B4B /* libssl.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libssl.a; path = Example/Pods/libssl.a; sourceTree = "<group>"; };
+		146A3F156243B35A2FA06549AE0DA550 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/GLKit.framework; sourceTree = DEVELOPER_DIR; };
 		1BA194E7B8DEF49259580A5C42346D26 /* Pods-TPWBFaceVerify_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TPWBFaceVerify_Tests-dummy.m"; sourceTree = "<group>"; };
+		1E2F8C82362EB2382A15830214EDC460 /* NextCV.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NextCV.framework; path = Example/Pods/NextCV.framework; sourceTree = "<group>"; };
+		23EB3D3B292616FD2A4D48383AFBECDF /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		244EC38A0B4D0447B15C81A6AE15A025 /* TPWBFaceVerify.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TPWBFaceVerify.h; sourceTree = "<group>"; };
 		26BD16CF69551230CB74FE29FC8374A6 /* Pods-TPWBFaceVerify_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TPWBFaceVerify_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		29A73E7458041541DB331B12757A96FB /* TPWBFaceVerify.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TPWBFaceVerify.xcconfig; sourceTree = "<group>"; };
+		2A31EB88E7615613B5476FEA68AD8AF7 /* TPWBFaceVerify.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = TPWBFaceVerify.modulemap; sourceTree = "<group>"; };
+		2E65C5BAA2C4849DAA1F64D173006BE2 /* TPWBFaceVerify-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TPWBFaceVerify-dummy.m"; sourceTree = "<group>"; };
 		3546C4278D2CD5367892BBD859720CB0 /* Pods-TPWBFaceVerify_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TPWBFaceVerify_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		3D41ADC5093664253E2C93790631E5D6 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		3D719A580804A3AF86D2E346BD22525D /* WBFaceV2Pics.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = WBFaceV2Pics.bundle; sourceTree = "<group>"; };
 		3F16636BEB9EA62F7C0E7C99980E095D /* Pods-TPWBFaceVerify_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TPWBFaceVerify_Example.release.xcconfig"; sourceTree = "<group>"; };
-		4088FC0D9F7AD7A4B84DE551367A4989 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43290CBCD999FC024CFAA04787AF7DDF /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
+		43E38393CBD6EA8E631CBA329743B0B7 /* TPWBFaceVerify.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TPWBFaceVerify.m; sourceTree = "<group>"; };
+		485C4559962712391C74E8163D881096 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
 		490566994FC965A9FE74C8501835E6FA /* Pods-TPWBFaceVerify_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TPWBFaceVerify_Example-frameworks.sh"; sourceTree = "<group>"; };
 		5278BD84629B7EF4462798110EC14C8A /* Pods-TPWBFaceVerify_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TPWBFaceVerify_Example-resources.sh"; sourceTree = "<group>"; };
-		5826D3C11ECC4D410099140C /* WBCloudFaceVerifySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WBCloudFaceVerifySDK.framework; sourceTree = "<group>"; };
-		584258651ECC3158005B547C /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcrypto.a; sourceTree = "<group>"; };
-		584258661ECC3158005B547C /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libssl.a; sourceTree = "<group>"; };
-		584258671ECC3158005B547C /* NextCV.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NextCV.framework; sourceTree = "<group>"; };
-		584258681ECC3158005B547C /* ufa.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ufa.bundle; sourceTree = "<group>"; };
-		5842586A1ECC3158005B547C /* WBFaceV2Pics.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = WBFaceV2Pics.bundle; sourceTree = "<group>"; };
-		5842586B1ECC3158005B547C /* youtubeauty.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = youtubeauty.bundle; sourceTree = "<group>"; };
-		5842586C1ECC3158005B547C /* YTFaceSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = YTFaceSDK.framework; sourceTree = "<group>"; };
-		584258721ECC31FE005B547C /* TPWBFaceVerify.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPWBFaceVerify.h; sourceTree = "<group>"; };
-		584258731ECC31FE005B547C /* TPWBFaceVerify.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPWBFaceVerify.m; sourceTree = "<group>"; };
-		584258761ECC3380005B547C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
-		584258781ECC33AD005B547C /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
-		5842587A1ECC33BC005B547C /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
-		5842587C1ECC33DE005B547C /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/usr/lib/libc++.tbd"; sourceTree = DEVELOPER_DIR; };
-		5842587E1ECC33E9005B547C /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/GLKit.framework; sourceTree = DEVELOPER_DIR; };
-		584258801ECC33F3005B547C /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
-		584258821ECC33FB005B547C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
-		584258841ECC3405005B547C /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/AudioToolbox.framework; sourceTree = DEVELOPER_DIR; };
-		584258861ECC3410005B547C /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreMedia.framework; sourceTree = DEVELOPER_DIR; };
 		5DFD6BCA15F5BB33FD88185C70302A00 /* Pods-TPWBFaceVerify_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TPWBFaceVerify_Tests-resources.sh"; sourceTree = "<group>"; };
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		68C0BAF4749E07E7E773A31EB835CFF3 /* Pods-TPWBFaceVerify_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TPWBFaceVerify_Tests.modulemap"; sourceTree = "<group>"; };
+		65D38F57C8D43DF7AAF99229E9CACB39 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/AudioToolbox.framework; sourceTree = DEVELOPER_DIR; };
+		68C0BAF4749E07E7E773A31EB835CFF3 /* Pods-TPWBFaceVerify_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TPWBFaceVerify_Tests.modulemap"; sourceTree = "<group>"; };
+		76D950E75F69AE0F3A6176AE420D1986 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
 		7C081A845EE1781642DED30F6B83A95D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7EAA1A89C8B6C17907DEE63780CC1C4A /* Pods-TPWBFaceVerify_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TPWBFaceVerify_Example-umbrella.h"; sourceTree = "<group>"; };
+		7FA704A2C4EBFD29FF326C0238DEEBA0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89A51FBAE847FFD7DFBE651E34538690 /* WBCloudFaceVerifySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WBCloudFaceVerifySDK.framework; path = Example/Pods/WBCloudFaceVerifySDK.framework; sourceTree = "<group>"; };
 		8A6194629A7A51CF5B09213E6FCE4356 /* Pods-TPWBFaceVerify_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TPWBFaceVerify_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		975966FD21915CE67F814548C536B035 /* Pods-TPWBFaceVerify_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TPWBFaceVerify_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		9CDED9DC6B772CCB381658F2010EE3B0 /* TPWBFaceVerify.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TPWBFaceVerify.xcconfig; sourceTree = "<group>"; };
-		9D761CC6229B70AEDD006B147FA51C3F /* Pods_TPWBFaceVerify_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TPWBFaceVerify_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9925DC67341D4FD78E60D17E73903F79 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		9D761CC6229B70AEDD006B147FA51C3F /* Pods_TPWBFaceVerify_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TPWBFaceVerify_Example.framework; path = "Pods-TPWBFaceVerify_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A09F0D52FC6B190769E2AD6383B4BAAF /* Pods-TPWBFaceVerify_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TPWBFaceVerify_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		A2862620975E1413104546FB06C915F4 /* Pods-TPWBFaceVerify_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TPWBFaceVerify_Example.modulemap"; sourceTree = "<group>"; };
-		A333D947D724B82297E5C52E77CD135B /* TPWBFaceVerify-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TPWBFaceVerify-umbrella.h"; sourceTree = "<group>"; };
+		A2862620975E1413104546FB06C915F4 /* Pods-TPWBFaceVerify_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TPWBFaceVerify_Example.modulemap"; sourceTree = "<group>"; };
+		AD4BB0837EBD616C6A7B3B0E7A48F980 /* libcrypto.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libcrypto.a; path = Example/Pods/libcrypto.a; sourceTree = "<group>"; };
+		B21F7724053E4E6B73AC3AFDB324B41B /* TPWBFaceVerify-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TPWBFaceVerify-umbrella.h"; sourceTree = "<group>"; };
 		BCDB8ECBBF43B46C807E88292AC8E300 /* Pods-TPWBFaceVerify_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TPWBFaceVerify_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C0B1F1FFD692B524451D41E1E2724537 /* ufa.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = ufa.bundle; sourceTree = "<group>"; };
 		C2FD8AA8ADC46768F558000B1442ABB6 /* Pods-TPWBFaceVerify_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TPWBFaceVerify_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		C6110944C7A61CD7C04C22AD5B35117E /* Pods_TPWBFaceVerify_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TPWBFaceVerify_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C8837498C7BB30E2E72A06EB6C13ACE7 /* TPWBFaceVerify.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TPWBFaceVerify.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6110944C7A61CD7C04C22AD5B35117E /* Pods_TPWBFaceVerify_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TPWBFaceVerify_Tests.framework; path = "Pods-TPWBFaceVerify_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8837498C7BB30E2E72A06EB6C13ACE7 /* TPWBFaceVerify.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TPWBFaceVerify.framework; path = TPWBFaceVerify.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C92F1943DF0F779B9F240487B41087CA /* YTFaceSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YTFaceSDK.framework; path = Example/Pods/YTFaceSDK.framework; sourceTree = "<group>"; };
 		CB14A361BF9A1EC42DECD5C3B9EEC895 /* Pods-TPWBFaceVerify_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TPWBFaceVerify_Tests-umbrella.h"; sourceTree = "<group>"; };
+		CC4B973572313885166CDC2CAA81071C /* youtubeauty.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = youtubeauty.bundle; sourceTree = "<group>"; };
 		D411A2AC93320DF5E884911BE8760007 /* Pods-TPWBFaceVerify_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TPWBFaceVerify_Example-dummy.m"; sourceTree = "<group>"; };
-		D838889DE02EBE65F18842DC227C5157 /* TPWBFaceVerify-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TPWBFaceVerify-prefix.pch"; sourceTree = "<group>"; };
+		DE62B98663BFE4DF7C934CB600421B1E /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
 		E5C2BDFFE06C6577966B72971E72B0BC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EA581311684130C38D14B79E5A45D6AE /* TPWBFaceVerify.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = TPWBFaceVerify.modulemap; sourceTree = "<group>"; };
 		F014CA2C56CC523F61D39D7D3174EA32 /* Pods-TPWBFaceVerify_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TPWBFaceVerify_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		F98870590502D6A11B058855C641F7B9 /* TPWBFaceVerify-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TPWBFaceVerify-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,28 +104,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E5A30334EE71A1542CF3CF2F12361C03 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				584258871ECC3410005B547C /* CoreMedia.framework in Frameworks */,
-				584258851ECC3405005B547C /* AudioToolbox.framework in Frameworks */,
-				584258831ECC33FB005B547C /* AVFoundation.framework in Frameworks */,
-				5826D3C21ECC4D410099140C /* WBCloudFaceVerifySDK.framework in Frameworks */,
-				584258811ECC33F3005B547C /* CoreTelephony.framework in Frameworks */,
-				5842587F1ECC33E9005B547C /* GLKit.framework in Frameworks */,
-				5842587D1ECC33DE005B547C /* libc++.tbd in Frameworks */,
-				5842587B1ECC33BC005B547C /* Accelerate.framework in Frameworks */,
-				584258791ECC33AD005B547C /* MobileCoreServices.framework in Frameworks */,
-				584258771ECC3380005B547C /* SystemConfiguration.framework in Frameworks */,
-				5842586F1ECC3158005B547C /* NextCV.framework in Frameworks */,
-				5842586D1ECC3158005B547C /* libcrypto.a in Frameworks */,
-				0072BC675392218187E0C315E34F16F2 /* Foundation.framework in Frameworks */,
-				584258711ECC3158005B547C /* YTFaceSDK.framework in Frameworks */,
-				5842586E1ECC3158005B547C /* libssl.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		F66F39586A2E2D01EA080A2DA857991E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -138,15 +112,39 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FCFC07E140F232775B07E310C645EB90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2948B8A3B9B8557EA04FBD97065A50A5 /* Accelerate.framework in Frameworks */,
+				9739332B00AB5E73AAA4E099083E79B6 /* AudioToolbox.framework in Frameworks */,
+				F85554679BBC91162DB320A72C827BE1 /* AVFoundation.framework in Frameworks */,
+				FA00C4FDA1F2A60F8DE4F3B7C778C56A /* CoreMedia.framework in Frameworks */,
+				866AB088D18981F2EE72FC2FB1CDC9D7 /* CoreTelephony.framework in Frameworks */,
+				E4E6055282EBB5452878AF0CB756A26A /* Foundation.framework in Frameworks */,
+				68BB378E50BB07F1BFF21F63FC63A583 /* GLKit.framework in Frameworks */,
+				500DDA16F508F62496081040068855AC /* MobileCoreServices.framework in Frameworks */,
+				E733284B66E7DE9242B5252596A6B227 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2214D2D07BBA8182949BB47CDCC9A86F /* Development Pods */ = {
+		1E8016FAFB8D03D3F11EB5DB7F80ED8F /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F659D233B345F90720ED4FD66FE6D2C0 /* TPWBFaceVerify */,
+				6A197AA97EDF113C898A696723F14062 /* TPWBFaceVerify */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		24002A6670E6882ECD6250D3E60F9CB2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C5D001622BDEBAD6EA1712AC5AF02BDE /* iOS */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		28097EE26FCF98A083277EEF0F7DF7E1 /* Targets Support Files */ = {
@@ -156,6 +154,17 @@
 				66D188677326BF6F243ED45F08601F8E /* Pods-TPWBFaceVerify_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		441D4632616C672C3F13AADDD6BB0E03 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C0B1F1FFD692B524451D41E1E2724537 /* ufa.bundle */,
+				3D719A580804A3AF86D2E346BD22525D /* WBFaceV2Pics.bundle */,
+				CC4B973572313885166CDC2CAA81071C /* youtubeauty.bundle */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		532630F5AD56AC49EC8378B02B13D2F6 /* Pods-TPWBFaceVerify_Example */ = {
@@ -204,90 +213,106 @@
 			path = "Target Support Files/Pods-TPWBFaceVerify_Tests";
 			sourceTree = "<group>";
 		};
-		7DB346D0F39D3F0E887471402A8071AB = {
+		6A197AA97EDF113C898A696723F14062 /* TPWBFaceVerify */ = {
 			isa = PBXGroup;
 			children = (
-				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				2214D2D07BBA8182949BB47CDCC9A86F /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				6672B9AE708025FEE1D3AB26604A3FDE /* Products */,
-				28097EE26FCF98A083277EEF0F7DF7E1 /* Targets Support Files */,
+				793BF03351A09FF27F561754B2FC4D69 /* Frameworks */,
+				A72540A87424044E99A2D4E2F27F778A /* Resources */,
+				6ADF1766B15427C16220090549A7CB02 /* Support Files */,
+				BBD630A2BD050A08888F627E80B07F67 /* TPWBFaceVerify */,
 			);
+			name = TPWBFaceVerify;
+			path = ../..;
 			sourceTree = "<group>";
 		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+		6ADF1766B15427C16220090549A7CB02 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				584258861ECC3410005B547C /* CoreMedia.framework */,
-				584258841ECC3405005B547C /* AudioToolbox.framework */,
-				584258821ECC33FB005B547C /* AVFoundation.framework */,
-				584258801ECC33F3005B547C /* CoreTelephony.framework */,
-				5842587E1ECC33E9005B547C /* GLKit.framework */,
-				5842587C1ECC33DE005B547C /* libc++.tbd */,
-				5826D3C11ECC4D410099140C /* WBCloudFaceVerifySDK.framework */,
-				5842587A1ECC33BC005B547C /* Accelerate.framework */,
-				584258781ECC33AD005B547C /* MobileCoreServices.framework */,
-				584258761ECC3380005B547C /* SystemConfiguration.framework */,
-				584258651ECC3158005B547C /* libcrypto.a */,
-				584258661ECC3158005B547C /* libssl.a */,
-				584258671ECC3158005B547C /* NextCV.framework */,
-				584258681ECC3158005B547C /* ufa.bundle */,
-				5842586A1ECC3158005B547C /* WBFaceV2Pics.bundle */,
-				5842586B1ECC3158005B547C /* youtubeauty.bundle */,
-				5842586C1ECC3158005B547C /* YTFaceSDK.framework */,
-				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D31D9F8D29B5C6AD3FD7D12E5C84A7D2 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				4088FC0D9F7AD7A4B84DE551367A4989 /* Info.plist */,
-				EA581311684130C38D14B79E5A45D6AE /* TPWBFaceVerify.modulemap */,
-				9CDED9DC6B772CCB381658F2010EE3B0 /* TPWBFaceVerify.xcconfig */,
-				F98870590502D6A11B058855C641F7B9 /* TPWBFaceVerify-dummy.m */,
-				D838889DE02EBE65F18842DC227C5157 /* TPWBFaceVerify-prefix.pch */,
-				A333D947D724B82297E5C52E77CD135B /* TPWBFaceVerify-umbrella.h */,
+				7FA704A2C4EBFD29FF326C0238DEEBA0 /* Info.plist */,
+				2A31EB88E7615613B5476FEA68AD8AF7 /* TPWBFaceVerify.modulemap */,
+				29A73E7458041541DB331B12757A96FB /* TPWBFaceVerify.xcconfig */,
+				2E65C5BAA2C4849DAA1F64D173006BE2 /* TPWBFaceVerify-dummy.m */,
+				0137CE150817EB0DCF81E869E018FA29 /* TPWBFaceVerify-prefix.pch */,
+				B21F7724053E4E6B73AC3AFDB324B41B /* TPWBFaceVerify-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/TPWBFaceVerify";
 			sourceTree = "<group>";
 		};
-		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+		793BF03351A09FF27F561754B2FC4D69 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+				AD4BB0837EBD616C6A7B3B0E7A48F980 /* libcrypto.a */,
+				080B1B8F978CBE73FB40FE79AEDC8B4B /* libssl.a */,
+				1E2F8C82362EB2382A15830214EDC460 /* NextCV.framework */,
+				89A51FBAE847FFD7DFBE651E34538690 /* WBCloudFaceVerifySDK.framework */,
+				C92F1943DF0F779B9F240487B41087CA /* YTFaceSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				1E8016FAFB8D03D3F11EB5DB7F80ED8F /* Development Pods */,
+				24002A6670E6882ECD6250D3E60F9CB2 /* Frameworks */,
+				6672B9AE708025FEE1D3AB26604A3FDE /* Products */,
+				28097EE26FCF98A083277EEF0F7DF7E1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9A4E7473ED1CCB166A3EC5B9387CA17A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3D41ADC5093664253E2C93790631E5D6 /* ReplaceMe.m */,
+				244EC38A0B4D0447B15C81A6AE15A025 /* TPWBFaceVerify.h */,
+				43E38393CBD6EA8E631CBA329743B0B7 /* TPWBFaceVerify.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A72540A87424044E99A2D4E2F27F778A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D3976B6B13568854D357E105EDE7D3E3 /* Example */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		BBD630A2BD050A08888F627E80B07F67 /* TPWBFaceVerify */ = {
+			isa = PBXGroup;
+			children = (
+				9A4E7473ED1CCB166A3EC5B9387CA17A /* Classes */,
+			);
+			name = TPWBFaceVerify;
+			path = TPWBFaceVerify;
+			sourceTree = "<group>";
+		};
+		C5D001622BDEBAD6EA1712AC5AF02BDE /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				485C4559962712391C74E8163D881096 /* Accelerate.framework */,
+				65D38F57C8D43DF7AAF99229E9CACB39 /* AudioToolbox.framework */,
+				76D950E75F69AE0F3A6176AE420D1986 /* AVFoundation.framework */,
+				03F09C99B4615A20D05D7659E5B102EE /* CoreMedia.framework */,
+				43290CBCD999FC024CFAA04787AF7DDF /* CoreTelephony.framework */,
+				9925DC67341D4FD78E60D17E73903F79 /* Foundation.framework */,
+				146A3F156243B35A2FA06549AE0DA550 /* GLKit.framework */,
+				DE62B98663BFE4DF7C934CB600421B1E /* MobileCoreServices.framework */,
+				23EB3D3B292616FD2A4D48383AFBECDF /* SystemConfiguration.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		D9E5AEFE887E8065CE3D3E0F2A48F2B9 /* TPWBFaceVerify */ = {
+		D3976B6B13568854D357E105EDE7D3E3 /* Example */ = {
 			isa = PBXGroup;
 			children = (
-				DCE95B0E4CF34F1A5C0B0658C5E5CCE9 /* Classes */,
+				441D4632616C672C3F13AADDD6BB0E03 /* Pods */,
 			);
-			path = TPWBFaceVerify;
-			sourceTree = "<group>";
-		};
-		DCE95B0E4CF34F1A5C0B0658C5E5CCE9 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				17F810E041F841543E6449D923256C84 /* ReplaceMe.m */,
-				584258721ECC31FE005B547C /* TPWBFaceVerify.h */,
-				584258731ECC31FE005B547C /* TPWBFaceVerify.m */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		F659D233B345F90720ED4FD66FE6D2C0 /* TPWBFaceVerify */ = {
-			isa = PBXGroup;
-			children = (
-				D31D9F8D29B5C6AD3FD7D12E5C84A7D2 /* Support Files */,
-				D9E5AEFE887E8065CE3D3E0F2A48F2B9 /* TPWBFaceVerify */,
-			);
-			name = TPWBFaceVerify;
-			path = ../..;
+			name = Example;
+			path = Example;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -309,12 +334,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D77CC5E9EB13E8993AFB4A7500447AD4 /* Headers */ = {
+		FAED6F6AF7871B343C945F7D83A49785 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A41E47BE4D057BA309EF3D25A3821BB /* TPWBFaceVerify-umbrella.h in Headers */,
-				584258741ECC31FE005B547C /* TPWBFaceVerify.h in Headers */,
+				7ACD2A3EC08F99267D21543AAFA1E78E /* TPWBFaceVerify-umbrella.h in Headers */,
+				43D31E71AAB0F2D6C6810F3B1A2488E8 /* TPWBFaceVerify.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,9 +350,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B620354AF33EBE0D0A9DC0E2AA8E3E76 /* Build configuration list for PBXNativeTarget "TPWBFaceVerify" */;
 			buildPhases = (
-				F5D6FF0FDB85DEEB290EEB356EEC8521 /* Sources */,
-				E5A30334EE71A1542CF3CF2F12361C03 /* Frameworks */,
-				D77CC5E9EB13E8993AFB4A7500447AD4 /* Headers */,
+				8191A70193919BC1583546897E0C79F1 /* Sources */,
+				FCFC07E140F232775B07E310C645EB90 /* Frameworks */,
+				FAED6F6AF7871B343C945F7D83A49785 /* Headers */,
+				EBF93B609219983E7D7C8AAF6C20FACA /* Resources */,
 			);
 			buildRules = (
 			);
@@ -401,6 +427,19 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		EBF93B609219983E7D7C8AAF6C20FACA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BD8EB67B8794F126F2B2F3D3F04D51D /* ufa.bundle in Resources */,
+				27CD0B61B044D4465A269654514E0BB1 /* WBFaceV2Pics.bundle in Resources */,
+				40B03B770C497A03DF8A961DE975DEE3 /* youtubeauty.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		371DFC52CC3526D554763926F1B6E920 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -410,21 +449,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8191A70193919BC1583546897E0C79F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A383515845C2F52661FCA3906B69091 /* ReplaceMe.m in Sources */,
+				DF1CB0F59ED00AA2EE127313FAD5CF58 /* TPWBFaceVerify-dummy.m in Sources */,
+				7A61C7BE6E3E85622AC6E5DCD48B0D02 /* TPWBFaceVerify.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		93AE28FCF8FE350A4BDE2D0FDF202F3B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				ADFB70E98C2CB515238FE33C26C4A957 /* Pods-TPWBFaceVerify_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F5D6FF0FDB85DEEB290EEB356EEC8521 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				584258751ECC31FE005B547C /* TPWBFaceVerify.m in Sources */,
-				B4BDFF29AA099D4AB33E0124C2EC9BBF /* ReplaceMe.m in Sources */,
-				65FD078FEBD7274D9AEF045D19C16EF4 /* TPWBFaceVerify-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -534,7 +573,7 @@
 		};
 		9996F82DEBC596E2F90E1F8E39706827 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9CDED9DC6B772CCB381658F2010EE3B0 /* TPWBFaceVerify.xcconfig */;
+			baseConfigurationReference = 29A73E7458041541DB331B12757A96FB /* TPWBFaceVerify.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -546,30 +585,15 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)",
-				);
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/TPWBFaceVerify/TPWBFaceVerify-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/TPWBFaceVerify/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)",
-				);
 				MODULEMAP_FILE = "Target Support Files/TPWBFaceVerify/TPWBFaceVerify.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = (
-					"-ObjC",
-					"-force_load",
-					"$(PROJECT_DIR)/NextCV.framework/NextCV",
-					"$(PROJECT_DIR)/YTFaceSDK.framework/YTFaceSDK",
-				);
 				PRODUCT_NAME = TPWBFaceVerify;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -725,7 +749,7 @@
 		};
 		FA4F38529F347650C4F4069A5A5E8043 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9CDED9DC6B772CCB381658F2010EE3B0 /* TPWBFaceVerify.xcconfig */;
+			baseConfigurationReference = 29A73E7458041541DB331B12757A96FB /* TPWBFaceVerify.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -737,30 +761,15 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)",
-				);
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/TPWBFaceVerify/TPWBFaceVerify-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/TPWBFaceVerify/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)",
-				);
 				MODULEMAP_FILE = "Target Support Files/TPWBFaceVerify/TPWBFaceVerify.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = (
-					"-ObjC",
-					"-force_load",
-					"$(PROJECT_DIR)/NextCV.framework/NextCV",
-					"$(PROJECT_DIR)/YTFaceSDK.framework/YTFaceSDK",
-				);
 				PRODUCT_NAME = TPWBFaceVerify;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
