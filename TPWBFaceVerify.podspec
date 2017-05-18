@@ -17,13 +17,13 @@ s.summary          = 'Face recognition for ios.'
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-    s.description  = '人脸识别'
+    s.description  = 'Face recognition for ios.Tniy 平台专用人脸识别。'
 
 s.homepage         = 'https://github.com/471289774/TPWBFaceVerify'
 # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
 s.license          = { :type => 'MIT', :file => 'LICENSE' }
 s.author           = { '顾卫明' => '471289774@qq.com' }
-s.source           = { :git => 'https://github.com/471289774/TPWBFaceVerify.git'}
+s.source           = { :git => 'https://github.com/471289774/TPWBFaceVerify.git':tag => s.version.to_s}
 # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
     s.ios.deployment_target = '8.0'
