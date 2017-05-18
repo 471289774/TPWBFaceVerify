@@ -7,8 +7,14 @@
 //
 
 #import "TPWBFaceVerify.h"
+#import <WBCloudFaceVerifySDK/WBFaceVerifyCustomerService.h>
 #define kRandomLength 32
 #define iOS8Later ([UIDevice currentDevice].systemVersion.floatValue >= 8.0f)
+
+@interface TPWBFaceVerify : NSObject <WBFaceVerifyCustomerServiceDelegate,TPWBFaceVerifyProtocol>
+@property (nonatomic, strong) UIViewController *viewController;
+@end
+
 @implementation TPWBFaceVerify
 @synthesize Userid;
 @synthesize name;

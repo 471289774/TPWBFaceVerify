@@ -34,7 +34,7 @@ s.source           = { :git => 'https://github.com/471289774/TPWBFaceVerify.git'
 #   'TPWBFaceVerify' => ['TPWBFaceVerify/Assets/*.png']
 # }
 
-# s.public_header_files = 'Pod/Classes/**/*.h'
+    s.public_header_files = 'TPWBFaceVerify/Classes/**/*.h'
     s.frameworks = 'CoreMedia', 'AudioToolbox','AVFoundation','CoreTelephony','GLKit','Accelerate','MobileCoreServices','SystemConfiguration'
     s.vendored_frameworks = 'Example/Pods/NextCV.framework','Example/Pods/WBCloudFaceVerifySDK.framework','Example/Pods/YTFaceSDK.framework'
     s.libraries = 'c++'

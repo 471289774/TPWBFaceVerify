@@ -8,8 +8,6 @@
 
 #import <Foundation/Foundation.h>
 #import <JavaScriptCore/JSExport.h>
-#import <WBCloudFaceVerifySDK/WBFaceVerifyCustomerService.h>
-
 
 @protocol TPWBFaceVerifyProtocol <JSExport>
 @property (nonatomic, copy) NSString *Userid;
@@ -27,8 +25,4 @@
 
 - (void)start;
 
-@end
-
-@interface TPWBFaceVerify : NSObject<TPWBFaceVerifyProtocol,WBFaceVerifyCustomerServiceDelegate>
-@property (nonatomic, strong) UIViewController *viewController;
 @end
